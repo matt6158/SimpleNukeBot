@@ -13,7 +13,7 @@
 
 *All you have to do in replit is add a secret called **TOKEN** in the key section and paste your bots token in the value section, then of course run it.*
 
-```import discord
+import discord
 from discord.ext import commands
 import random
 from discord import Permissions
@@ -113,4 +113,4 @@ async def on_guild_channel_create(channel):
 
 
 keep_alive()
-bot.run(os.getenv("TOKEN"))```
+bot.run(os.getenv("TOKEN"))
